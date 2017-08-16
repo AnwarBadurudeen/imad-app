@@ -27,5 +27,10 @@ body {
  padding-top: 69px;
  padding-left: 20px;
  padding-right: 20px;
-          }  
+    
+}  
 
+.para{
+  font-family: sans-serif;
+  color: #888844;
+}
