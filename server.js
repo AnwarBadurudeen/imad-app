@@ -9,6 +9,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/balaji',function(req,res){
+    res.send('this is a new page');
+});
+
 app.get('/article-one',function (req, res){
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));  
 });
