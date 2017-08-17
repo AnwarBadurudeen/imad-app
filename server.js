@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 var articles={
-  articleone:{
+  article-one:{
     title:'Article one page',
     heading:'Article one',
     date:'sep 5,2017',
@@ -16,7 +16,7 @@ var articles={
             <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
             This is my written webpage to the hasura website</p>`
 },
-  articletwo:{
+  article-two:{
     title:'Article two page',
     heading:'Article one',
     date:'Aug 15,2017',
