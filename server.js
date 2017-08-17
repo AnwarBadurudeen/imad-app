@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articles={
     
-  article-one:{
+  articleone:{
     title:'Article one page',
     heading:'Article one',
     date:'sep 5,2017',
@@ -18,7 +18,7 @@ var articles={
             <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
             This is my written webpage to the hasura website</p>`
 },
-  article-two:{
+  articletwo:{
     title:'Article two page',
     heading:'Article one',
     date:'Aug 15,2017',
