@@ -22,17 +22,15 @@ var articles={
     title:'Article two page',
     heading:'Article one',
     date:'Aug 15,2017',
-    content:` <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
-            This is my written webpage to the hasura website</p>
-            <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
-            This is my written webpage to the hasura website</p>
-            <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
-            This is my written webpage to the hasura website</p>`
+    content:` <img src="http://1.bp.blogspot.com/-23hp3tqIty0/VVYcaJYWBkI/AAAAAAAAADA/tZZTCSwQAYE/s640/Independence+day+Quotes+2015+In+English-1+(4).jpg" hight="50%" width="50%"> 
+    <ul><li><p>Every human has four endowments - self awareness, conscience, independent will and creative imagination. These give us the ultimate human freedom... The power to choose, to respond, to change.</p></li><br><br>
+           <li> <p>Violence as a way of achieving racial justice is both impractical and immoral. I am not unmindful of the fact that violence often brings about momentary results. Nations have frequently won their independence in battle. But in spite of temporary victories, violence never brings permanent peace.</p></li></ul>
+           `
 
 },   
   'article-three':{
-    title:'Article one page',
-    heading:'Article one',
+    title:'Article three page',
+    heading:'Article three',
     date:'sep 5,2017',
     content:` <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
             This is my written webpage to the hasura website</p>
