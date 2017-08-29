@@ -15,4 +15,18 @@ console.log('Loaded!');
  var interval=setInterval(moveRight,50); 
  };//for image give the id command in img tag not in div
  
- 
+  var button=document.getElementById('counter');
+ button.onclick = function(){
+     var request=new XMLHttpRequest();
+     request.onreadystatechange = function(){
+         if(request.readystate===XMLHttpRequest.Done){
+             if(request.status===200){
+                 var counter=request.responseText;
+                 var span=document.getElementById('count');
+                 span.innerHTML = counter.tostring();
+             }
+         }
+     };
+     request.open('GET','http://http://anwarbadurudeen786.imad.hasura-app.io/counter',true);
+     request.send(null);
+ };
