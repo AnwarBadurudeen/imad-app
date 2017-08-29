@@ -20,7 +20,7 @@ var articles={
 },
   'article-two':{
     title:'Article two page',
-    heading:'Article one',
+    heading:'Independence Day',
     date:'Aug 15,2017',
     content:` <img src="http://1.bp.blogspot.com/-23hp3tqIty0/VVYcaJYWBkI/AAAAAAAAADA/tZZTCSwQAYE/s640/Independence+day+Quotes+2015+In+English-1+(4).jpg" hight="50%" width="50%"> 
     <ul><li><p>Every human has four endowments - self awareness, conscience, independent will and creative imagination. These give us the ultimate human freedom... The power to choose, to respond, to change.</p></li><br><br>
