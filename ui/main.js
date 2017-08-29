@@ -6,7 +6,7 @@ console.log('Loaded!');
  
  //to move image on click
  var img=document.getElementById('mad');
- img.dbclick=function() {
+ img.onclick=function() {
   img.style.marginLeft='100px';   
  };//for image give the id command in img tag not in div
  
