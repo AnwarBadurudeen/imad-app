@@ -6,8 +6,13 @@ console.log('Loaded!');
  
  //to move image on click
  var img=document.getElementById('mad');
+ var marginLeft=o;
+ function moveRight(){
+     marginLeft=marginLeft + 1;
+     img.style.marginLeft=marginLeft + 'px';
+ }
  img.onclick=function() {
-  img.style.marginLeft='100px';   
+ var interval=setInterval(moveRight,50); 
  };//for image give the id command in img tag not in div
  
  
