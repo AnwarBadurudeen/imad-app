@@ -29,8 +29,18 @@ var articles={
             <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
             This is my written webpage to the hasura website</p>`
 
+},   
+  'article-three':{
+    title:'Article one page',
+    heading:'Article one',
+    date:'sep 5,2017',
+    content:` <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
+            This is my written webpage to the hasura website</p>
+            <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
+            This is my written webpage to the hasura website</p>
+            <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
+            This is my written webpage to the hasura website</p>`
 }
-    
 };
 
 
