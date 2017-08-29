@@ -70,7 +70,7 @@ function createTemplate(data){
         <div>
             ${date}
         </div>
-        <div class=im>
+        <div class=center>
             ${img}
         </div>
        <div class="para">
