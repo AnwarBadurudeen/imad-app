@@ -6,7 +6,7 @@ console.log('Loaded!');
  
  //to move image on click
  var img=document.getElementById('mad');
- var marginLeft=o;
+ var marginLeft=0;
  function moveRight(){
      marginLeft=marginLeft + 1;
      img.style.marginLeft=marginLeft + 'px';
