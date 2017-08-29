@@ -5,7 +5,7 @@ console.log('Loaded!');
  element.innerHTML="I changed my content to test js";
  
  //to move image on click
- var img=document.getElementById('mad');
+ var img=document.getElementById('ma');
  var marginLeft=0;
  function moveRight(){
      marginLeft=marginLeft + 1;
