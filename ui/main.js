@@ -11,7 +11,7 @@ console.log('Loaded!');
      marginLeft=marginLeft + 1;
      img.style.marginLeft=marginLeft + 'px';
  }
- img.onclick=function() {
+ img.ondblclick=function() {
  var interval=setInterval(moveRight,50); 
  };//for image give the id command in img tag not in div
  
