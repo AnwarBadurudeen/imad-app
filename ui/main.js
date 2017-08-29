@@ -27,6 +27,6 @@ console.log('Loaded!');
              }
          }
      };
-     request.open('GET','http://http://anwarbadurudeen786.imad.hasura-app.io/counter',true);
+     request.open('GET','http://anwarbadurudeen786.imad.hasura-app.io/counter',true);
      request.send(null);
  };
