@@ -59,10 +59,7 @@ function createTemplate(data){
         </head>
     <body>
     <div class="container">
-        <div><a href="/">Home</a>&nbsp;&nbsp;&nbsp;
-        <a href="/article-one">article-one</a>&nbsp;&nbsp;&nbsp;
-        <a href="/article-two">article-two</a>&nbsp;&nbsp;&nbsp;
-        <a href="/article-three">article-three</a>&nbsp;&nbsp;&nbsp;</div>
+       
         
         <hr/>
         
