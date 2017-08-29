@@ -22,7 +22,8 @@ var articles={
     title:'Article two page',
     heading:'Independence Day',
     date:'Aug 15,2017',
-    content:` <img src="http://1.bp.blogspot.com/-23hp3tqIty0/VVYcaJYWBkI/AAAAAAAAADA/tZZTCSwQAYE/s640/Independence+day+Quotes+2015+In+English-1+(4).jpg" hight="50%" width="50%"> 
+    img:'<img src="http://1.bp.blogspot.com/-23hp3tqIty0/VVYcaJYWBkI/AAAAAAAAADA/tZZTCSwQAYE/s640/Independence+day+Quotes+2015+In+English-1+(4).jpg" hight="50%" width="50%">',
+    content:`  
     <ul><li><p>Every human has four endowments - self awareness, conscience, independent will and creative imagination. These give us the ultimate human freedom... The power to choose, to respond, to change.</p></li><br><br>
            <li> <p>Violence as a way of achieving racial justice is both impractical and immoral. I am not unmindful of the fact that violence often brings about momentary results. Nations have frequently won their independence in battle. But in spite of temporary victories, violence never brings permanent peace.</p></li></ul>
            `
@@ -47,6 +48,7 @@ function createTemplate(data){
     var title=data.title;
     var date=data.date;
     var heading=data.heading;
+    var img=data.img;
     var content=data.content;
     var htmlTemplate=`<html>
    
@@ -68,7 +70,9 @@ function createTemplate(data){
         <div>
             ${date}
         </div>
-        
+        <div class=im>
+            ${img}
+        </div>
        <div class="para">
            ${content}
         </div>
