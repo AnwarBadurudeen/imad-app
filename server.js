@@ -29,7 +29,7 @@ var articles={
            `
 
 },   
-  'three':{
+  'tree':{
     title:'Article three page',
     heading:'Article three',
     date:'sep 5,2017',
