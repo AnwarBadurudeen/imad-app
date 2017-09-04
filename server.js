@@ -33,12 +33,7 @@ var articles={
     title:'Article three page',
     heading:'Article three',
     date:'sep 5,2017',
-    content:` <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
-            This is my written webpage to the hasura website</p>
-            <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
-            This is my written webpage to the hasura website</p>
-            <p>This is my written webpage to the hasura website This is my written webpage to the hasura website
-            This is my written webpage to the hasura website</p>`
+    content:` <p>hi iam balaji`
 }
 };
 
